@@ -41,7 +41,7 @@ if query:
         try:
             genai.configure(api_key=api_key)
             # استخدام نموذج جمني السريع والذكي
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-pro')
             
             prompt = f"""
             أنت مساعد قانوني محترف ومحقق ميداني متخصص في قانون المرور الجزائري والمرسوم التنفيذي 04-381.
