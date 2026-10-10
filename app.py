@@ -39,7 +39,7 @@ if query:
             genai.configure(api_key=api_key)
             
             # استخدام النموذج الاحترافي الذي أوصت به رسالة الخطأ من جوجل
-            model = genai.GenerativeModel('gemini-1.5-pro')
+            model = genai.GenerativeModel('gemini-1.5-flash')
             
             prompt = f"""
             أنت مساعد قانوني محترف ومحقق ميداني متخصص في قانون المرور الجزائري والمرسوم التنفيذي 04-381.
